@@ -9,5 +9,5 @@ ls /var/log
 ![image](https://github.com/user-attachments/assets/4601e36d-31ae-419d-83fb-cd8e92d051fa)
 
 # Important logs files for troubleshooting 
-* 1. syslog 
+*  syslog 
 
