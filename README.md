@@ -46,6 +46,7 @@ ls /var/log
 ![image](https://github.com/user-attachments/assets/59e08675-f991-407c-9b62-4341784c7cd9)
 **5. Configure AWS**
 ![image](https://github.com/user-attachments/assets/aec81b56-a7e2-4aa8-8fe6-11c36e8f29b0)
+
 **6. Install crond on your machine**
 ![image](https://github.com/user-attachments/assets/73f232b5-c68a-4b75-9372-2345749d59e8)
 **7. Create one cron job to store your logs to s3 bucket**
