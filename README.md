@@ -1,3 +1,4 @@
+
 # What is Logs?
 #### Linux and application that run on it generates messages which is stored in different forms is called logs. Linux uses a set of configuration files, directories, programs, commands and daemons to create, store and recycle these log messages. 
 
