@@ -5,7 +5,6 @@
 # To see logs in ubuntu machine
 ````
 ls /var/log
-
 ````
 ![image](https://github.com/user-attachments/assets/4601e36d-31ae-419d-83fb-cd8e92d051fa)
 
@@ -37,28 +36,36 @@ ls /var/log
 
 # How to take automated logs backup to s3 bucket 
 **1. Launch one instance.**
+
 ![image](https://github.com/user-attachments/assets/f4a3ec59-23e2-4ede-b15a-95dad545a3da)
+
 **2. Create s3 bucket.**
+
 ![image](https://github.com/user-attachments/assets/f300078c-4d66-4db8-98b8-e88fe1e9b09b)
+
 **3. Create one role and give s3 full permmision**
+
 ![image](https://github.com/user-attachments/assets/c6fb388c-17fb-4d46-9234-cd262041d271)
+
 **4. Attach role to instance**
+
 ![image](https://github.com/user-attachments/assets/59e08675-f991-407c-9b62-4341784c7cd9)
+
 **5. Configure AWS**
+
 ![image](https://github.com/user-attachments/assets/aec81b56-a7e2-4aa8-8fe6-11c36e8f29b0)
 
 **6. Install crond on your machine**
+
 ![image](https://github.com/user-attachments/assets/73f232b5-c68a-4b75-9372-2345749d59e8)
+
 **7. Create one cron job to store your logs to s3 bucket**
 ````
 sudo crontab -e
-
 ````
 
 ````
-
 * * * * * aws s3 sync /var/log/ s3://<bucket-name>/log_file_name --exclude "*" --include "*.log"
-
 ````
 ![image](https://github.com/user-attachments/assets/ad07dee4-0d92-43f5-bb9b-7e29770b7cb8)
 
