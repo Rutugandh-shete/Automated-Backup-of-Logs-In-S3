@@ -3,7 +3,7 @@
 
 ---
 
-# 👀 To See Logs in Ubuntu Machine  
+#  To See Logs in Ubuntu Machine  
 ```bash
 ls /var/log
 ```
@@ -12,34 +12,34 @@ ls /var/log
 ---
 
 # 🔧 Important Log Files for Troubleshooting  
-* 🛠️ **`syslog`**: System-related information, contains details about processes and daemons.  
-* ⚙️ **`dmesg`**: Useful for hardware or driver-related information.  
-* 🔑 **`auth.log`**: Used to check user authentication, SSH logins, and sudo attempts.  
+*  **`syslog`**: System-related information, contains details about processes and daemons.  
+*  **`dmesg`**: Useful for hardware or driver-related information.  
+*  **`auth.log`**: Used to check user authentication, SSH logins, and sudo attempts.  
 
 ---
 
 # 🔍 How to Check Logs by Type (System, Server, Application, Database)  
 
-## 🖥️ System Logs:  
+##  System Logs:  
 1. `/var/log/syslog`  
 2. `/var/log/auth.log`  
 3. `/var/log/dmesg`  
 4. `/var/log/boot.log`  
 
-## 🌐 Nginx Logs:  
+## Nginx Logs:  
 1. `/var/log/nginx/access.log`  
 2. `/var/log/nginx/error.log`  
 3. `/var/log/nginx`  
 
-## 🌎 Httpd Logs:  
+##  Httpd Logs:  
 1. `/var/log/httpd`  
 2. `/var/log/access_log`  
 3. `/var/log/error_log`  
 
-## 🛢️ MySQL Logs:  
+##  MySQL Logs:  
 1. `/var/log/mysql/error.log`  
 
-## 🐱‍💻 Tomcat Logs:  
+##  Tomcat Logs:  
 1. `/opt/tomcat/log`  
 2. `/opt/tomcat/catalina.out`  
 
